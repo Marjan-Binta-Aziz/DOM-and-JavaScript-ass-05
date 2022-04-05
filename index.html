@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Hisab-Nikash</title>
+</head>
+<body>
+    <header>
+        <nav class="text-center p-4 bg-light py-2">
+            <h1>Hisab-Nikash</h1>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid h-100" src="images/money.png" alt="money">
+                </div>
+                <div class="col-12 col-lg-6 ">
+                    <!-- <div class="income p-2 d-flex flex-column ">
+                    
+                    </div> -->
+                    <div class="p-2 d-flex flex-column ">
+                        <h5>Income</h5>
+                    <label class="mt-2" for="">Income: </label>
+                    <input id="income-input" type="text">
+                        <h5>Expenses</h5>
+                    <label class="mt-2" for="">Expenses: </label>
+                    <input id="expense-input" type="text">
+                    <label class="mt-2" for="">Rent: </label>
+                    <input id="rent-input" type="text">
+                    <label class="mt-2" for="">Cloths: </label>
+                    <input id="cloth-input" type="text">
+                    <button type="button" id="calculate-button" class="btn btn-outline-dark w-25 mt-4">Calculate</button>
+                </div>
+                <div class="reuslt mt-4 text-center">
+                    <h4>Total Expenses: <span id="total-expenses">00</span></h4>
+                    <h4>Balance: <span id="balance-total">00</span> </h4>
+                </div>
+                <div class="save mt-5 text-center">
+                    <label for="">Save :</label>
+                    <input type="text" name="" id="save-input"> <span>%</span> 
+                    <button id="save-button" type="button" class="btn btn-outline-dark w-25">Save</button>
+                <div class="mt-4 pb-5 text-center">
+                    <h4>Saving Amount <span id="saving-amount">00</span></h4>
+                    <h4>Remaining Balance <span id="remaning-balance">00</span></h4>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div id="errormassage" class="  mt-2 mb-3  d-flex justify-content-center text-white"style="width:50% ;margin:0 auto" >
+                <p id="massage"> </p>
+            </div>
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
